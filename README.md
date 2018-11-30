@@ -1,4 +1,5 @@
 # object-detection
+Ref: https://www.pyimagesearch.com/2016/02/08/opencv-shape-detection/
 Detect rectangle, square, round, triangle and diamond shape objects
 
 1. Edge detection: Canny algorithm
