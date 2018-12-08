@@ -28,6 +28,7 @@ if __name__ == "__main__":
     binary = cv2.Canny(gray, THRESHOLD_MIN, THRESHOLD_MAX)
 
     #4. Classify shape by finding contours
+    # TODO: Get the degree of corner to distinguish between diamond and triangle
     _, contours, _ = cv2.findContours(binary, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
     shape = "Undefined"
     for contour in contours:
